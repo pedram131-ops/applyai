@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS opportunities (
+  id TEXT PRIMARY KEY,
+  type TEXT,
+  title TEXT,
+  title_fa TEXT,
+  description_fa TEXT,
+  requirements_fa TEXT,
+  country TEXT,
+  city TEXT,
+  source TEXT,
+  source_url TEXT,
+  published_at TEXT,
+  published_jalali TEXT,
+  deadline_at TEXT,
+  deadline_jalali TEXT,
+  remote_type TEXT,
+  degree_required TEXT,
+  visa_support TEXT,
+  international_acceptance TEXT,
+  eu_status TEXT,
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);

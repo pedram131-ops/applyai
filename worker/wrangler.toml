@@ -1,0 +1,11 @@
+name = "apply-ai-source-worker"
+main = "worker.js"
+compatibility_date = "2025-08-01"
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "apply_ai"
+database_id = "PUT_D1_DATABASE_ID_HERE"
